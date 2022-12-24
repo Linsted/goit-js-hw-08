@@ -17,7 +17,6 @@ ourFormREF.addEventListener('submit', onFormSubmit);
 
 
 
-
 function onFormInput(e) {
     console.log(ourForminfo);
     ourForminfo[e.target.name] = e.target.value;
